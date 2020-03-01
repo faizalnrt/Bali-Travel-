@@ -1,0 +1,61 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(reservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.tagline1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'script MT Bold';
+    font-size: 54px;
+    color: #fff;
+    top: 10%;
+    left: 50%;
+}
+
+/* color */
+.bg-orange{
+    background-color: rgb(223, 166, 81);
+    color: #fff;
+    box-shadow: 0 0 7px 0px rgb(223, 166, 81);
+    border: 1px solid rgb(223, 166, 81);
+}
+
+/* component */
+.button{
+    position: relative;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-family: 'script MT Bold';
+}
+
+/* form */
+.tagline2{
+    position: absolute;
+    transform: translate(-50,-50);
+    text-align: center;
+    top: 30%;
+    left: 39%;    
+}
+.form{
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
